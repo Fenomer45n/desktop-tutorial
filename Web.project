@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <div class="Header">
+        <div class="Logo"><h2>Tars Tech</h2></div>
+
+        <div class="Header_box">
+            <img src="Images/house-fill.svg" class="icon">
+            <span class="text">Home</span>
+        </div>
+        <a href="#footer_A" class="link">
+            <div class="Header_box">
+            <img src="Images/telegram.svg" class="icon">
+            <span class="text">Contact</span>
+            </div>
+        </a>
+
+        <div class="Header_box">
+            <img src="Images/basket.svg" class="icon">
+            <span class="text">Catalog</span>
+        </div>
+        <div class="Seting">
+            <img src="Images/person-fill.svg" class="mail_icon">
+            <img src="Images/tools.svg" class="Seting_icon">
+            <span>Seting</span>
+        </div>
+    </div>
+
+    <div class="Header_info">
+        <div class="info">
+            <h3>Abaout us</h3>
+            <p>Ласкаво просимо до нашої компанії — місця, де сучасна техніка отримує нове життя. Ми спеціалізуємося на продажі, обслуговуванні та ремонті електроніки для дому, роботи та повсякденного використання.</p>
+            <p>Наша команда працює для того, щоб кожен клієнт міг швидко знайти якісну техніку за доступною ціною та отримати професійну допомогу у випадку несправностей. Ми займаємося продажем смартфонів, ноутбуків, комп’ютерів, аксесуарів та іншої електроніки від перевірених виробників.</p>
+            <p>Окрім продажу, ми надаємо послуги ремонту техніки будь-якої складності. Діагностика, заміна комплектуючих, чистка, оновлення програмного забезпечення та відновлення роботи пристроїв — усе це виконується досвідченими спеціалістами з використанням сучасного обладнання</p>
+        </div>
+    </div>
+    <div class="Icon_stat">
+        <div class="icon_box">
+            <img src="Images/happy-face.png" class="state">
+            <span>100% visiter</span>
+        </div>
+        <div class="icon_box">
+            <img src="Images/icons8-tools-48.png" class="state">
+            <span>100% garanti</span>
+        </div>
+    </div>
+
+    <div class="Catalog">
+        <div class="Catalog_main_box"><h2>Catalog</h2></div>
+    </div>
+    <div class="backgaround"></div>
+
+    <div class="Catalog_box">
+        <div class="box_laptop">
+            <img src="Images/icons8-laptop-48.png" class="pi">
+            <h3>Laptop</h3>
+            <p>Repairs with a 50$ to 200$ guarantee</p>
+            <p>Installation and Recovery Sofrware</p>
+            <p>Free inspection</p>
+        </div>
+        <div class="box_computer">
+            <img src="Images/icons8-workstation-48.png" class="pi">
+            <h3>Computers</h3>
+            <p>Repairs with a 100$ to 250$ guarantee</p>
+            <p>Installation and Recovery Sofrware</p>
+            <p>Free inspection</p>
+        </div>
+        <div class="box_Phones">
+            <img src="Images/icons8-iphone-14-48.png" class="pi">
+            <h3>Phones</h3>
+            <p>Repairs with a 40$ to 80$ guarantee</p>
+            <p>Installation and Recovery Sofrware</p>
+            <p>Free inspection</p>
+        </div>
+        <div class="box_Gadgets">
+            <img src="Images/icons8-mouse-48.png" class="pi">
+            <h3>Gadgets</h3>
+            <p>Repairs with a 40$ to 70$ guarantee</p>
+            <p>Repair computer accessories</p>
+            <p>Free inspection</p>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer_A">
+        <div class="footer_Logo">
+            <h2>Tars Tech</h3>
+            <p>The best service for you</p>
+            <p>2026 Tars Tech"all rights recerved"</p>
+        </div>
+
+        <div class="Navigation_Menu">
+            <h3>Quick menu</h3>
+            <p>Catalog</p>
+            <p>Home</p>
+        </div>
+
+        <div class="Info_menu">
+            <h3>Legal</h3>
+            <p>Privacy policy</p>
+            <p>Terms to service</p>
+            <p>Cookie policy</p>
+            <p>Refund policy</p>
+        </div>
+
+        <div class="Contact">
+            <h3>Contact</h3>
+            <p>Viber (068 862 2973)</p>
+            <p>Telegram (068 872 2832)</p>
+            <p>Customer support (068 863 2933)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
