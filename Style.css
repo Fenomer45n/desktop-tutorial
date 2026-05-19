@@ -1,0 +1,356 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(Images/abstract-gradient-neon-lights.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+}
+.link{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.Logo{
+    background-color: rgba(20, 20, 20, 0.2);
+    border-radius: 8px;
+    height: 68px;
+}
+.Logo h2{
+    background: linear-gradient(90deg, #fff, #a855f7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Header_box{
+    background-color: rgba(20, 20, 20, 0.2);
+    width: 98px;
+    height: 68px;
+    border-radius: 8px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    transition: 0.3 ease;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.Header_box:hover{
+    box-shadow:
+    0 0 10px rgba(59,130,246,0.5),
+    0 0 20px rgba(168,85,247,0.3);
+}
+
+.icon, .text{
+    transition: 0.3s ease;
+}
+.Header_box:hover .icon{
+    transform: scale(1.1);
+}
+.Header_box:hover .text{
+    transform: scale(1.1);
+}
+
+.Header_box span{
+    color: white;
+}
+.Header_box img{
+    filter:invert(1);
+}
+
+
+.Seting{
+    background-color: rgba(20, 20, 20, 0.2);
+    width: 180px;
+    height: 68px;
+    border-radius: 8px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mail_icon{
+    transition: 0.3s ease;
+}
+.Seting_icon{
+    transition: 0.3s ease;
+}
+.Seting_icon:hover{
+    transform: scale(1.3);
+}
+.mail_icon:hover{
+    transform: scale(1.3);
+}
+
+.Seting span{
+    color: white;
+}
+.Seting img{
+    filter: invert(1);
+}
+.Header_info{
+    margin-top: -500px;
+    margin-left: 15px;
+    background-color: rgba(20, 20, 20, 0.2);
+    border-radius: 8px;
+    width: 660px;
+    height: 320px;
+
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Icon_stat{
+    display: flex;
+    gap: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.icon_box{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(20, 20, 20, 0.2);
+    border-radius: 8px;
+
+    text-align: center;
+
+    width: 100px;
+    height: 80px;
+}
+
+.icon_box span{
+    margin-top: 10px;
+
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.state{
+    width: 20px;
+    margin-left: 39px;
+    margin-top: 10px;
+}
+
+.Catalog{
+    display: flex;
+    justify-content: center;
+
+}
+.backgaround{
+    background-image: url(Images/243389-P3GV35-920.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 900px;
+    margin-top: -100px;
+
+}
+
+.Catalog_main_box{
+    display: flex;
+    justify-content: center;
+
+    background-image: url(Images/rm378-02c.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid gray 2px;
+    border-radius: 8px;
+
+    width: 1000px;
+    height: 70px;
+    margin-top: 90px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.Catalog_main_box h2{
+    background: linear-gradient(90deg, #3e8417, #0c4d268b, #04f47c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Catalog_box{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: -750px;
+
+}
+.box_laptop{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(135deg, #3e8417, #04f47c);
+    border-radius: 8px;
+
+    width: 300px;
+    height: 300px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(110, 107, 107);
+    color: white;
+
+    transition: 0.3s ease;
+    border: 1px solid rgba(139, 235, 13, 0.1);
+}
+
+.box_laptop:hover{
+    box-shadow:
+    0 0 10px rgba(59,130,246,0.5),
+    0 0 20px rgba(168,85,247,0.3);
+
+    transform: scale(1.1);
+}
+
+.box_computer{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    border-radius: 8px;
+
+    width: 300px;
+    height: 300px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(110, 107, 107);
+    color: white;
+
+    transition: 0.3s ease;
+    border: 1px solid rgba(139, 235, 13, 0.1);
+}
+
+.box_computer:hover{
+    box-shadow:
+    0 0 10px rgba(59,130,246,0.5),
+    0 0 20px rgba(168,85,247,0.3);
+
+    transform: scale(1.1);
+}
+
+.box_Phones{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(135deg, #8414ee, #30c59b);
+    border-radius: 8px;
+
+    width: 300px;
+    height: 300px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(110, 107, 107);
+    color: white;
+
+    transition: 0.3s ease;
+    border: 1px solid rgba(139, 235, 13, 0.1);
+}
+
+.box_Phones:hover{
+    box-shadow:
+    0 0 10px rgba(35, 248, 2, 0.5),
+    0 0 20px rgba(101, 1, 77, 0.3);
+
+    transform: scale(1.1);
+}
+
+.box_Gadgets{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(135deg, #f06807, #30c59b);
+    border-radius: 8px;
+
+    width: 300px;
+    height: 300px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(110, 107, 107);
+    color: white;
+
+    transition: 0.3s ease;
+    border: 1px solid rgba(139, 235, 13, 0.1);
+}
+
+.box_Gadgets:hover{
+    box-shadow:
+    0 0 10px rgba(35, 248, 2, 0.5),
+    0 0 20px rgba(101, 1, 77, 0.3);
+
+    transform: scale(1.1);
+}
+
+.pi{
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+
+    background-image: url(Images/abstract-gradient-neon-lights.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 200px;
+    margin-top: 300px;
+
+    color: whitesmoke;
+}
+.footer_Logo{
+    background: linear-gradient(90deg, #fff, #a855f7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Navigation_Menu h3{
+    background: linear-gradient(90deg, #fff, #a855f7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Info_menu h3{
+    background: linear-gradient(90deg, #fff, #a855f7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Contact h3{
+    background: linear-gradient(90deg, #fff, #a855f7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
