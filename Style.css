@@ -1,7 +1,7 @@
 .Header{
     display: flex;
     justify-content: space-around;
-    background-image: url(Images/abstract-gradient-neon-lights.jpg);
+    background-image: url(Images/top-view-steel-hammer-with-other-construction-elements-tools.jpg);
     background-position: center;
     background-size: cover;
     height: 600px;
@@ -9,6 +9,7 @@
 }
 .link{
     text-decoration: none;
+    color: whitesmoke;
 }
 html{
     scroll-behavior: smooth;
@@ -150,7 +151,7 @@ html{
 
 }
 .backgaround{
-    background-image: url(Images/243389-P3GV35-920.jpg);
+    background-image: url(Images/14754.jpg);
     background-position: center;
     background-size: cover;
 
@@ -378,7 +379,8 @@ html{
 }
 .Sofrware_boxes{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     margin-top: 100px;
 }
 .Windows_box{
@@ -399,7 +401,19 @@ html{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 5px rgb(110, 107, 107);
     color: white;
+
+    transition: 0.3s ease;
+    border: 1px solid rgba(139, 235, 13, 0.1);
 }
+
+.Windows_box:hover{
+    box-shadow:
+    0 0 10px rgba(40, 234, 255, 0.5),
+    0 0 20px rgba(11, 67, 76, 0.3);
+
+    transform: scale(1.1);
+}
+
 .Linux_box{
     display: flex;
     flex-direction: column;
@@ -418,4 +432,19 @@ html{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 5px rgb(110, 107, 107);
     color: white;
+
+    transition: 0.3s ease;
+    border: 1px solid rgba(139, 235, 13, 0.1);
+}
+
+.Linux_box:hover{
+    box-shadow:
+    0 0 10px rgba(40, 234, 255, 0.5),
+    0 0 20px rgba(11, 67, 76, 0.3);
+
+    transform: scale(1.1);
+}
+
+.pic{
+    width: 50px;
 }
